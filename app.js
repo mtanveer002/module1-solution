@@ -1,13 +1,1 @@
-(function () {
-
-  'use strict';
-
-  angular.module('LunchCheck' , [])
-
-  .controller('LunchCheckController' , LunchCheckController);
-  LunchCheckController.$inject = ['$scope'];
-  function LunchCheckController($scope) {
-    $scope.name="M Tanveer";
-  }
-
-})();
+!function(){"use strict";function t(t){t.LunchCheck=function(){switch(t.str=document.getElementById("formc").value,t.words=t.str.split(","),t.a=t.str,t.a){case t.a="":t.msg="Enter data first";break;default:t.words.length<=3?t.msg="Enjoy":t.msg="Too Much"}console.log(t.str),console.log(t.words)}}angular.module("LunchCheck",[]).controller("LunchCheckController",t),t.$inject=["$scope"]}();

@@ -2,7 +2,7 @@ body{
   background-color:silver;
 }
 .input{
-  background-color: green;
+  background-color: gray;
   text-align: center;
   padding: 2cm;
   padding-right: 3cm;
@@ -36,4 +36,8 @@ color: #FFFFFF;
 
 .input button:hover{
   background-color: #cccccccc;
+}
+
+.Heading{
+
 }

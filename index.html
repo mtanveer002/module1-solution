@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body ng-controller="LunchCheckController">
-    <div class="input">
-      updated version
-      <input type="text" name="" value="{{name}}" placeholder="item1,item2,item3,etc"
-      id="formc"> <br>
 
-      <button type="button" name="button">Check Lunch</button>
+    <div class="input">
+      <input type="text" value="" placeholder="item1,item2,item3,etc"
+      id="formc" > <br>
+
+        <h1 class="Heading">{{msg}}</h1>
+      <button type="button" name="button" ng-click="LunchCheck()">Check Lunch</button>
 
     </div>
 
